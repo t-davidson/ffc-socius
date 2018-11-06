@@ -17,14 +17,14 @@ random.seed(54321)
 tf.set_random_seed(42)
 
 # , index_col='challengeID')
-bg = pd.read_csv('../../FFChallenge_v2/background.csv', low_memory=False)
+bg = pd.read_csv('../../../FFChallenge_v2/background.csv', low_memory=False)
 print("background.csv shape: ", bg.shape)
 #bg.cf4fint = ((pd.to_datetime(bg.cf4fint) -
 #               pd.to_datetime('1960-01-01')) / np.timedelta64(1, 'D'))
 # Loading bg such that some bugs in labels are fixed, see https://github.com/fragilefamilieschallenge/open-source-submissions/blob/master/rfjz%20-%2011%20submission/FF%20Pre-Imputation.ipynb
 # , index_col='challengeID')
 
-train = pd.read_csv('../../FFChallenge_v2/train.csv', low_memory=False)
+train = pd.read_csv('../../../FFChallenge_v2/train.csv', low_memory=False)
 print("train.csv shape: ", train.shape)
 
 bg.index = bg.challengeID
@@ -169,4 +169,4 @@ print("Clipping negative values to 0")
 bg_ = bg_.clip_lower(0)
 
 print("Picking outputs...")
-bg_.to_csv('../data/full_imputed.csv')
+bg_.to_csv('../../data/full_imputed.csv')
