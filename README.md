@@ -17,7 +17,9 @@ Despite attempts to make the results exactly reproducible the neural network mod
 
 Please follow these instructions to reproduce the results:
 
-First set up a Python virtual environment and install the require packages by entering the following commands into Terminal. ***Note this assumes that Python 3.6 and the pip package manager are pre installed***):
+Prerequisite: [Python 3.6](https://www.python.org/downloads/release/python-360/) and the pip package manager must be installed (the latter is included in the Python installation).
+
+First set up a Python virtual environment and install the require packages by entering the following commands into Terminal.:
 ```
 pip install virtualenv
 python -m virtualenv ffc-env
@@ -54,3 +56,6 @@ Once this notebook has completed, running `LIME_explanations.ipynb` in the `code
 The figures shown in the paper are output into the `figures` directory. This also contains Figure 1, which was created using [Draw.io](https://www.draw.io/), a free online tool to draw diagrams.
 
 Once `gpa.ipynb` has finished running the notebooks in `code/supplementary` can then be run to produce the results reported in the Supplementary Information.
+
+## Questions?
+Please get in touch via email if you have any questions. My details can be found on my Github profile.
