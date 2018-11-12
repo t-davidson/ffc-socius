@@ -31,10 +31,10 @@ The raw FFC data must be stored in a directory called `FFChallenge_v2` in the sa
 
 ## Replicating the code
 
-Running the following files in order will reproduce the main results. Since a number of the files take a considerable amount of time to run and involve multiple stages I recommend running each in turn:
+Completing the following steps in order will reproduce the main results. Since a number of the files take a considerable amount of time to run and involve multiple stages I recommend running each in turn. Most of the code is contained in Jupyter notebooks, which include more detailed descriptions of the code.
 
 ### Cleaning the FFC data
-First, navigate to `code/preprocess` and run `clean_files.py`. This script will take the raw FFC files and produce a CSV containing a cleaned and imputed version of the files.
+First, navigate to `code/preprocess` and run `clean_files.py`. This script will take the raw FFC files and produce a CSV containing a cleaned and imputed version of the files. ***This script should take approximately 30 minutes to 1 hour to complete.***
 
 
 ### Training the neural network models
