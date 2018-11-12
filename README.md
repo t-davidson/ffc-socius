@@ -6,9 +6,12 @@ This repository contains code to replicate the analysis for the [Fragile Familie
 
 This code is an updated version of the code used in the challenge. The original repository, which contains the code used in the paper, along with the exact results (viewable by opening the Jupyter notebook files), can be viewed [here](https://github.com/t-davidson/fragile-families-challenge).
 
-In this updated version there are three main changes: (1) The files have been organized more coherently and instructions have been provided to set up an environment to replicate the results entirely, (2) seeds have been added throughout the code to help to ensure reproducibility, (3) the code has been updated to ensure compatibility with the new Fragile Families Metadata API.
+In this updated version there are three main changes:
+  (1) The files have been organized more coherently and instructions have been provided to set up an environment to replicate the results entirely.
+  (2) seeds have been added throughout the code to help to ensure reproducibility.
+  (3) the code has been updated to ensure compatibility with the new Fragile Families Metadata API.
 
-Despite attempts to make the results exactly reproducible the neural network models trained in `gpa.ipynb` still produce variable results over multiple runs and across multiple machines. This repository therefore provides code that allows others to replicate my analyses, but unfortunately falls short of allowing the exact results reported in the paper to be completely reproducible. If anyone has feedback on how the code can be improved to ensure this then please get in touch.
+Despite attempts to make the results exactly reproducible the neural network models trained in `gpa.ipynb` still produce variable results over multiple runs and across multiple machines. This repository therefore provides code that allows others to replicate my analyses, but unfortunately falls short of allowing the exact results reported in the paper to be reproduced. If anyone has feedback on how the code can be improved to ensure this then please get in touch.
 
 ## Set-up instructions
 
